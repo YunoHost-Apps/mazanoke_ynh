@@ -27,9 +27,9 @@ multi_instance = true
 ldap = false
 sso = false
 
-disk = "50M"
-ram.build = "50M"
-ram.runtime = "50M"
+disk = "100M"
+ram.build = "70M"
+ram.runtime = "30M"
 
 [install]
     [install.domain]
@@ -56,6 +56,7 @@ ram.runtime = "50M"
     [resources.system_user]
 
     [resources.install_dir]
-
+    group = "www-data:r-x"
+    
     [resources.permissions]
     main.url = "/"
