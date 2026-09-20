@@ -7,7 +7,7 @@ name = "Mazanoke"
 description.en = "Self-hosted local image optimizer"
 description.fr = "Optimiseur d'images local auto-hébergé"
 
-version = "1.1.6~ynh1"
+version = "1.1.7~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -48,8 +48,8 @@ ram.runtime = "30M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/civilblur/mazanoke/archive/refs/tags/v1.1.6.tar.gz"
-    sha256 = "6f24bee57e5f0ed02052fe32a592a550e4b5b89a7b2c264f5fde239c7d8d97e7"
+    url = "https://github.com/civilblur/mazanoke/archive/refs/tags/v1.1.7.tar.gz"
+    sha256 = "2a42c75fd889c706535a499340a6da9872bebd5d54c91326f70d7a8a8229e1eb"
 
     autoupdate.strategy = "latest_github_tag"
 
